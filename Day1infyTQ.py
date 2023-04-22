@@ -29,3 +29,16 @@ if(ticket_status=="Confirmed"):
         print("Please make the payment to clear check-in")
 else:
     print("Sorry, ticket is not confirmed")
+    
+for passenger in "A","A", "FC", "C", "FA",  "SP", "A", "A":
+    if(passenger=="FC" or passenger=="FA"):
+        print("No check required")
+        continue
+    if(passenger=="SP"):
+        print("Declare emergency in the airport")
+        break
+    if(passenger=="A" or passenger=="C"):
+        print("Proceed with normal security check")
+    print("Check the person")
+    print("Check for cabin baggage")    
+    
