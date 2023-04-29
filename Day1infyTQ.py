@@ -17,7 +17,7 @@ ticket_status="Confirmed"
 luggage_weight=32
 weight_limit=30  #Weight limit for the airline
 extra_luggage_charge=0
-if(ticket_status=="Confirmed"):
+if(ticket_status=="Confirmed "):
     if(luggage_weight>0 and luggage_weight<=weight_limit):
         print("Check-in cleared")
     elif(luggage_weight<=(weight_limit+10)):
