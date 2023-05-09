@@ -1,7 +1,7 @@
 def calculate_total_ticket_cost(no_of_adults, no_of_children):
     total_ticket_cost=0
     #Write your logic here
-    children_cost=1/3*37550
+    children_cost= 1/3*37550
     total_ticket=37550*no_of_adults+children_cost*no_of_children
     service=total_ticket*0.07
     discount=(total_ticket+service)*0.10
