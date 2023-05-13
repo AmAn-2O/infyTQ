@@ -30,7 +30,7 @@ if(ticket_status=="Confirmed"):
 else:
     print("Sorry, ticket is not confirmed")
 
-for passenger in "A","A", "FC", "C", "FA",  "SP", "A", "A":
+for passenger in "A","A", "FC" "FC", "C", "FA",  "SP", "A", "A":
     if(passenger=="FC" or passenger=="FA"):
         print("No check required")
         continue
@@ -61,3 +61,5 @@ def find_product(num1,num2,num3):
 #Provide different values for num1, num2, num3 and test your program
 product=find_product (8,6,2)
 print(product)
+
+
