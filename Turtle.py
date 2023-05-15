@@ -22,7 +22,7 @@ alex.left(120)
 for counter in range(1,5):
     alex.circle(20*counter)
 alex.left(120)
-alex.color("blue")
+alex.color("green")
 for counter in range(1, 5):
     alex.circle(20*counter)      
 alex.color("green")
