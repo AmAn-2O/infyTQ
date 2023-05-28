@@ -37,7 +37,7 @@ for passenger in "A","A", "FC" "FC", "C", "FA",  "SP", "A", "A":
     if(passenger=="SP"):
         print("Declare emergency in the airport")
         break
-    if(passenger=="A" or passenger=="C"):
+    if(passenger=="A " or passenger=="C"):
         print("Proceed with normal security check")
     print("Check the person")
     print("Check for cabin baggage")
