@@ -11,7 +11,7 @@ def calculate_total_ticket_cost(no_of_adults, no_of_children):
 
 #Provide different values for no_of_adults, no_of_children and test your program
 total_ticket_cost=calculate_total_ticket_cost(5,2)
-print("Total Ticket Cost:",total_ticket_cost)
+print("total ticket Cost:",total_ticket_cost)
 
 ticket_status="Confirmed"
 luggage_weight=32
