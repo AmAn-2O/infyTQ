@@ -11,7 +11,7 @@ alex.right(60)         # alex turns 60 degrees right
 alex.left(60)          # alex turns 60 degrees left
 alex.circle(50)        # draws a circle of radius 50
 #draws circles
-for counter in range(1,3):
+for counter in range(0,2):
     alex.circle(20*counter)
 '''
 
